@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow bawah -->
+    <item android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#CC000000"/> <!-- 80% black -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Tombol utama -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</layer-list>
