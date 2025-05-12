@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.Practice" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Base.Theme.Practice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/white</item>
         <item name="colorOnPrimary">@android:color/white</item>
     </style>
 
-    <style name="Theme.Practice" parent="Base.Theme.Practice" />
+    <style name="Theme.Practice" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
 </resources>
